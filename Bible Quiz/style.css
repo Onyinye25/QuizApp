@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
+
+body{
+  background-image: url(./bg.jpg);
+  background-repeat: no-repeat ;
+  height: 800px;
+  width: 100%;
+  background-size: 100% 100%;
+	font-size: 19px;
+	font-family: cursive;
+	color: #212020;
+  font-weight: 300;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.h2{
+  font-weight: 300px;
+  margin: 0px;
+  padding: 10px;
+  font-size: 30px;
+  font-family: cursive;
+  background-color: #000;
+  background-size: 50%; 
+  color: #fff;
+
+;
+}
+.question{
+  font-size: 30px;
+  margin-bottom: 10px;
+}g
+.answers {
+  margin-bottom: 20px;
+  text-align: center;
+  display: inline-block;
+}
+.answers label{
+  display: block;
+  margin-bottom: 15px;
+}
+button{
+  font-family: 'Brandon Grotesque', sans-serif;
+	font-size: 15px;
+	background-color: green;
+	color: #212020;
+	border: 0px;
+	border-radius: 20px;
+	padding: 20px;
+  cursor: -webkit-grabbing; cursor: grabbing;
+	margin-bottom: 20px;
+  margin-top: 60px;
+}
+button:hover{
+	background-color: lightcoral;
+}
+
+.slide{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.active-slide{
+  opacity: 2;
+  z-index: 3;
+}
+.quiz-container{
+  position: relative;
+  height: 200px;
+  margin-top: 40px;
+}
